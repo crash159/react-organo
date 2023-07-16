@@ -1,24 +1,36 @@
-import './Rodape.css'
 
+import './rodape.css'
 
 const Rodape = () => {
-    // JSX
-    return(
-        <header className="footer ">
-            <div className='cont'>
-                <img src="/imagens/fb.png" alt="O rodape da página"/>
-                <img src="/imagens/tw.png" alt="O rodape da página"/>
-                <img src="/imagens/ig.png" alt="O rodape da página"/>
-            </div>
-            <div className='cont'>
-                <img src="/imagens/logo.png" alt="O rodape da página"/>
-            </div>
-            <div className='cont'>
-                <h4>Desenvolvido por Alura.</h4>
-            </div>
-        </header>
-    )
-
+    return (<footer className="footer">
+       <section>
+       <ul>
+            <li>
+                <a href="facebook.com" target="_blank">
+                    <img src="/imagens/facebook.png" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="twitter.com" target="_blank">
+                    <img src="/imagens/twitter.png" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="instagram.com" target="_blank">
+                    <img src="/imagens/instagram.png" alt="" />
+                </a>
+            </li>
+        </ul>
+       </section>
+       <section>
+       <img src="/imagens/logo.png" alt="" />
+       </section>
+       <section>
+        <p>
+            Desenvolvido por Alura.
+        </p>
+       </section>
+    </footer>)
 }
 
 export default Rodape
