@@ -2,7 +2,7 @@ import './Banner.css'
 
 const Banner = () => {
     return (<header className="cabecalho">
-        <img src='/imagens/banner.png' alt='Logo do Organo'/>
+        <h1>Organogram</h1>
     </header>)
 }
 

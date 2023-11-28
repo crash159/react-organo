@@ -27,7 +27,7 @@ const Formulario = ({aoCadastrar, times, cadastrarTime}) => {
     return (
         <section className="formulario-container">
             <form className="formulario" onSubmit={aoSubmeter}>
-                <h2>Preencha os dados para criar o card do colaborador.</h2>
+                <h2>Create New Card</h2>
                 <Campo
                     obrigatorio={true}
                     label='Nome'
@@ -50,13 +50,13 @@ const Formulario = ({aoCadastrar, times, cadastrarTime}) => {
                     items={times} 
                     valor={time}
                     aoAlterado={valor => setTime(valor)}/>
-                <Botao texto='Criar card' />
+                <Botao texto='Add Card' />
             </form>
             <form className="formulario" onSubmit={(evento) => {
                 evento.preventDefault()
                 cadastrarTime({nome: nomeTime, cor: corTime})
             }}>
-                <h2>Preencha os dados para criar um novo time.</h2>
+                <h2>Create New Team</h2>
                 <Campo
                     obrigatorio
                     label='Nome'
@@ -72,7 +72,7 @@ const Formulario = ({aoCadastrar, times, cadastrarTime}) => {
                     valor={corTime}
                     aoAlterado={valor => setCorTime(valor)}
                 />
-                <Botao texto='Criar um novo time'/>
+                <Botao texto='Add Team'/>
             </form>
         </section>
     )

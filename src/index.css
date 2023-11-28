@@ -4,6 +4,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1d1d1d;
 }
 
 .times {
@@ -11,14 +12,9 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   color: #6278F7;
-  border-bottom: 4px solid #6278F7;
   display: inline-block;
-  padding-bottom: 24px;
+  padding-bottom: 10px;
   margin: 32px 0;
-}
-
-h1, h2 {
-  font-family: 'Prata', serif;
 }

@@ -7,13 +7,15 @@
 
 }
 .formulario-container .formulario {
-    background: #F7F7F7;
-    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    background: #1d1d1d;
     border-radius: 20px;
+    border: 1px solid;
+    border-color: rgb(82, 82, 82);
     padding: 36px 64px;
     flex: 1;
 }
 .formulario-container .formulario h2 {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 24px;
+    color: white;
 }
