@@ -1,5 +1,5 @@
 .botao {
-    background: #ffffff;
+    background: #767676;
     border-radius: 10px;
     font-weight: 700;
     font-size: 18px;
@@ -8,8 +8,11 @@
     cursor: pointer;
     font-weight: bold;
     border: none;
+    transition: 0.8s;
+
 }
 
 .botao:hover {
-    color: #167be0;
+    background: #68cdf2;
+    transition: 0.2s;
 }
